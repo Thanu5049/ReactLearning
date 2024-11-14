@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    height:100px;
+    width:100%;
+    background-color: antiquewhite;
+}
+.bus-info{
+    display:flex;
+    width:30%;
+    justify-content:space-between;
+    margin-top:30px;
+}
+.rating-div{
+    height:23px;
+    width:40px;
+    background-color:green;
+    color:white;
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    gap:3px;
+    padding:1px;
+    border-radius:5px;
+}
+.number-div,.raters-div,.track-div{
+    font-size:13px;
+}
+.card-title-div{
+    display:flex;
+    justify-content: space-between;
+}
+.custom-dash{
+    font-size: 20px;      /* Adjust the size */
+  color: #888888;       /* Set a custom color */
+  padding: 0 5px;  
+  width:40px
+}
+/* Remove arrow icon */
+.accordion-button::before {
+    display: none;
+    border:none;
+  }
+  
+  /* Remove blue background color on click */
+  .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+    box-shadow: none;
+    border:none;
+  }
+  
+  .accordion-button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+.seats-div{
+  display:flex;
+}
+.seats{
+  display:flex;
+  gap:40px;
+}
+.seat-layout{
+width:auto;
+border:1px solid grey;
+background-color: antiquewhite;
+padding:20px;
+}
+.left-seats,.right-seats{
+  margin-top:5px;
+  display:flex;
+  gap:15px;
+}
+.left-first-column,.left-second-column,
+.right-first-column,.right-second-column{
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+}
+.price-div{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:14px;
+}
+.whole-seat,.whole-seat:hover{
+  cursor:pointer;
+}
+.changeSeatColor{
+  color:blue;
+}
+.location-div{
+  width:auto;
+  background-color: rgb(214, 214, 82);
+  display:flex;
+}
+.pickup-div,.drop-div{
+  width:30%;
+  background-color: bisque;
+}
+tr{
+  display:flex;
+  flex-direction: column;
+}
+.time-div{
+  color:grey;
+  font-weight: 500;
+}
+.whole-div{
+  display:flex;
+  flex-direction: column;
+}
+.checkout-div{
+  height:100px;
+  background-color: antiquewhite;
+  display:flex;
+  flex-direction: column;
+  gap:25px;
+}
+.upper-div{
+  display:flex;
+  gap:20px;
+  justify-content: space-evenly;
+}
+.continue-div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

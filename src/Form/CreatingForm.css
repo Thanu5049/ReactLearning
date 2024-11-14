@@ -1,0 +1,66 @@
+/* Container for centering the form */
+.form-container {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form title */
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form labels */
+  .form-container label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  /* Input field focus effect */
+  .form-container input[type="text"]:focus,
+  .form-container input[type="email"]:focus,
+  .form-container input[type="password"]:focus {
+    border-color: #5b9bd5;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(91, 155, 213, 0.3);
+  }
+  
+  /* Submit button styling */
+  .form-container button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5b9bd5;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Submit button hover effect */
+  .form-container button[type="submit"]:hover {
+    background-color: #4a8ac1;
+  }
+  

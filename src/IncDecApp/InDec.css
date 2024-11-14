@@ -1,0 +1,48 @@
+.number{
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight:600
+}
+.col-5:hover{
+    box-shadow:3px 3px 10px 3px rgb(99, 99, 159);
+}
+.counters{
+    height: calc(100% - 150px);
+    align-items: center;
+    justify-content: space-between;
+    font-size:30px;
+}
+.increment{
+    height:60px;
+    width:auto;
+    background-color: rgb(17, 248, 9);
+    padding:5px;
+    border:1px solid black;
+    color:white;
+    border-radius:8%;
+    cursor:pointer;
+}
+.decrement{
+    height:60px;
+    width:auto;
+    background-color: rgb(248, 9, 9);
+    padding:5px;
+    border:1px solid black;
+    color:white;
+    border-radius:8%;
+    cursor:pointer;
+}
+.increment:hover{
+    /* height:65px;
+    width:auto;
+    border:2px solid grey;
+    margin:2px */
+    box-shadow: 3px 3px 10px 3px grey;
+}
+.decrement:hover{
+    box-shadow: 3px 3px 10px 3px grey;
+
+}
