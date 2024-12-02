@@ -73,6 +73,7 @@ const NavBar = () => {
                             pointerEvents: "none", // Prevents the icon from blocking clicks to the DatePicker
                         }} />
                     </div>
+                    
                     <Button
                         variant="primary"
                         size="lg"
