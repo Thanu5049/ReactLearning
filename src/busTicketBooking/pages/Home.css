@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.mn-container {
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.container-one {
+    height: 60%;
+    width: 100vw;
+    background-image: url('../../../src/pic-four.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    position: relative;
+    z-index: 1;
+}
+
+.display-container{
+  height:500px;
+  width:40%;
+  background-color: aliceblue;
+}
+
+
+.custom-modal .modal-dialog {
+  max-width: 800px; 
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+}
+
+.custom-modal .modal-content {
+  padding: 20px;
+  border-radius: 10px; 
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  gap: 10px;  
+}
+.login-main-container{
+  display: flex;
+  flex-direction: row; /* Ensures child elements are side by side */
+  justify-content: space-between; /* Adjust spacing between elements */
+  align-items: center; /* Align elements vertically */
+  gap: 20px;
+}
+
+
+.nav-link.active{
+  border:none !important;
+  background-color: azure;
+}
+.nav-link:hover{
+  border:none !important;
+}
+.nav-tabs .nav-link{
+  margin:0 !important;
+  border:0 !important;
+}
+.nav-tabs .nav-link.active{
+  background-color:none;
+}
+.close-button{
+  background-color: rgb(224, 12, 12);
+}
+.hov:hover,
+.hov:hover *{
+  background-color: rgb(236, 242, 248); 
+}
+
+.me-auto{
+    color:white;
+    z-index: 999;
+}
+.login{
+    width:20%;
+}
+.search-container{
+    margin:auto;
+    margin-top:50px;
+    width:130px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Increase the size of the calendar box */
+.react-datepicker {
+    font-size: 25px; /* Make the text larger */
+    width: 280px; /* Make the calendar box wider */
+    height:320px;
+    background-color: white;
+    border:1px solid grey;
+    cursor:pointer;
+  }
+  .react-datepicker__day {
+    font-size: 15px; /* Increase the font size of each day */
+    display: flex;
+   
+  }
+  .react-datepicker__day--disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+  /* Customize the selected date with a round blue background */
+  .react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: rgb(204, 7, 7) !important;
+  color: white !important;
+  border-radius: 10% !important; /* Make it round */
+  font-weight: bold; /* Optional: make the selected date bold */
+} 
+
+.react-datepicker__day-name {
+    font-size: 12px /* Increase font size of day names (Sun, Mon, etc.) */;
+    height:30px;
+    background-color: white;
+  }
+ 
+  .react-datepicker__header {
+    background-color: white;
+  }
+  /* Style the calendar container */
+  .travel-div{
+    width: 400px;
+    height:25px;
+    background-color: white;
+    font-size:16px;
+    font-weight:600;
+    border-radius:10px;
+    padding:5px
+  }
+  .react-datepicker__month-container {
+    width: 280px; /* Width of each month column (adjust as needed) */;
+    height:100%;
+    background-color: white;
+  }
+  .react-datepicker__week{
+    margin:10px
+  }
+  .react-datepicker__current-month {
+    font-weight: bold;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .date-picker-container{
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+  }
+  .date-picker-container input {
+    width: 400px;
+    height:85px;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .react-datepicker__day-names{
+    background-color: white;;
+  }
+  .inner-sc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-sc .form-control {
+    margin-bottom: 15px;
+    height: 90px;
+    width: 400px;
+    font-size: 18px;
+  }
+
+  .submit-button{
+    width:20%;
+    height:130%;
+    border-radius: 10px;
+    color:white;
+    margin-left: 70px;
+    background-image: var(--color-btn-primary-bg, linear-gradient(93deg, #53b2fe, #065af3));
+height:60px;
+  }
+  .submit-div{
+    margin-left:100px;
+
+  }
+
+  .carousel-div{
+    height:30%;
+   width:50%;
+    margin-bottom:30px;
+    margin-left:25%;
+    margin-top:2%;
+    border-radius:10px;
+  }
+  .carousel-img {
+    height: 300px; 
+    width: 100%; 
+  }
+  .city-container-left{
+    width:400px;
+    height:90px;
+    background-color: #fff;
+    border-radius: 10px 0 0 10px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+        border:0.5px solid grey;
+  }
+  .city-container-right{
+    width:400px;
+    height:90px;
+    background-color: #fff;
+    border:1px  solid grey;
+    border-left:0;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .city-from{
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .city{
+    font-weight:700;
+    font-size: 27px;
+    border:none;
+    box-shadow:none
+  }
+  .city:focus{
+    outline:none;
+    box-shadow:none
+
+  }
+ option{
+    font-size:18px;
+ }
+ .errorMsg{
+  color:red;
+ }
+ .react-datepicker-wrapper {
+  border: none !important; /* Remove border */
+  box-shadow: none !important; /* Remove shadow */
+}
+
+.react-datepicker {
+  border: none !important; /* Remove border around the calendar */
+  box-shadow: none !important; /* Remove shadow around the calendar */
+}
+
+/* Optional: You can remove the input border if you want as well */
+.react-datepicker__input-container input {
+  border: none !important; /* Remove border on the input field */
+  box-shadow: none !important; /* Remove box-shadow from the input field */
+}

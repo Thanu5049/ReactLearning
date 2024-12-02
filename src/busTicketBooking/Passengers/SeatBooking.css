@@ -1,0 +1,241 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.nav-bar-seating{
+    height:70px;
+    width:100%;
+    
+}
+.bus-info{
+    display:flex;
+    width:30%;
+    justify-content:space-between;
+    margin-top:30px;
+}
+.s-logout{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(238,9,75,1) 100%);
+color:white;
+width:120px;
+height:50px;
+margin:10px 10px 10px 10px;
+border:none;
+font-weight:600;
+border-radius:10px
+}
+.rating-div{
+    height:23px;
+    width:40px;
+    background-color:green;
+    color:white;
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    gap:3px;
+    padding:1px;
+    border-radius:5px;
+}
+.number-div,.raters-div,.track-div{
+    font-size:13px;
+}
+.card-title-div{
+    display:flex;
+    justify-content: space-between;
+}
+.custom-dash{
+    font-size: 20px;      /* Adjust the size */
+  color: #888888;       /* Set a custom color */
+  padding: 0 5px;  
+  width:40px
+}
+/* Remove arrow icon */
+.accordion-button::before {
+    display: none;
+    border:none;
+  }
+  
+  /* Remove blue background color on click */
+  .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+    box-shadow: none;
+    border:none;
+  }
+  
+  .accordion-button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+.seats-div{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+  background-color: white;
+}
+.seats{
+  display:flex;
+  gap:20px;
+  width:70%;
+  margin-bottom: 10px;
+}
+
+.disabled-seat {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.lower-div{
+  display:flex;
+  justify-content:space-between;
+  height:50%;
+  width:100%;
+  padding: 10px;
+}
+.seat-layout{
+width:50%;
+height:100%;
+border:1px solid rgb(235, 232, 232);
+background-color: rgb(255, 255, 255);
+border:3px solid grey;
+padding:30px;
+border-radius:20px;
+margin:20px auto;
+}
+.left-seats,.right-seats{
+  margin-top:5px;
+  display:flex;
+  gap:15px;
+}
+.left-first-column,.left-second-column,
+.right-first-column,.right-second-column{
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+}
+.price-div{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:14px;
+  
+}
+.whole-seat,.whole-seat:hover{
+  cursor:pointer;
+}
+.changeSeatColor{
+  color:rgb(0, 4, 255);
+}
+.pink-seat {
+ color: rgb(255, 0, 128);
+}
+.blue-seat {
+  color: rgb(102, 255, 0);
+}
+.whole-seat .pink {
+  background-color: pink !important;
+}
+
+.whole-seat .green {
+  background-color: green !important;
+}
+
+.location-div{
+  width:100%;
+  display:flex;
+  background-color:white;
+  margin:0 auto;
+}
+.pickup-div,.drop-div{
+  width:50%;
+  border:0.4px solid black;
+  margin:25px;
+  border-radius:10px;
+}
+tr{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.time-div{
+  color:grey;
+  font-weight: 500;
+  
+}
+.whole-div{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  border:1px solid black;
+}
+.checkout-div{
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+}
+.selected-seats-div{
+  width:50%;
+}
+.upper-div{
+  height:50%;
+  width:100%;
+  display:flex;
+  justify-content:space-evenly;
+}
+.continue-div{
+  display:flex;
+  background-color:white;
+  width:500px;
+  margin-left:30px;
+
+}
+.filter-div{
+  height:600px;
+  margin-right:30px;
+}
+.filter-headings{
+  font-weight:700;
+}
+.filter-heading{
+  font-weight:700;
+  margin-left: 30px;
+}
+thead:hover,
+thead:hover *{
+background-color: #eaf5ff;
+}
+.accordion-button::after{
+  height:0;
+  width:0;
+}
+.bus-name{
+  width:23%;
+}
+.hover-seat-label {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -120%); 
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.whole-seat {
+  position: relative; 
+}
+
+
+

@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing :border-box;
+}
+#capture{
+    height:auto;
+    width:800px;
+    background-color:bisque;
+    margin:0 auto;
+}
+.travel-points-div{
+    width:48%;
+    font-weight:600
+}

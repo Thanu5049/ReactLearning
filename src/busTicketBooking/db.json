@@ -1,0 +1,6 @@
+[
+      { "Admin": {"email":"admin@gmail.com","password":"admin","username":"Admin","gender":"F","dob":"12/12/2020","mnumber":"7777777777"}},
+        {"email":"john@gmail.com","password":"john","username":"John","gender":"M","dob":"11/11/2019"},
+        {"email":"doe@gmail.com","password":"doe","username":"Doe","gender":"M","dob":"5/5/2002"}
+]
+      
